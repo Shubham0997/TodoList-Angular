@@ -5,6 +5,18 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent { 
   title = 'todo-list';
+
+
+  constructor(){  //this is a constructor function
+
+    
+  // setTimeout(() => {
+  //   this.title="Changed title";
+  // }, 2000);
+
+  
+}
+
 }
